@@ -1,0 +1,13 @@
+CREATE DATABASE barrieEats;
+
+USE barrieEats;
+
+CREATE TABLE restaurants (
+restaurantId INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+name VARCHAR(60) NOT NULL,
+address VARCHAR(120) NOT NULL,
+phone VARCHAR(15) NOT NULL);
+
+ALTER TABLE restaurants AUTO_INCREMENT 10000;
+
+DESC restaurants;
